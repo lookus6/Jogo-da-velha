@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Jogo da Velha</title>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <script type="text/javascript" src="script.js"></script>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <video autoplay muted loop poster="img/thumb.png" id="video" class="bg_video animated fadeIn">
+            <source src="img/bg-op20p.mp4" type="video/mp4">
+        </video>	
+        <script>
+            document.getElementById("video").play();
+        </script>
+        <div class="animated zoomIn logo"></div>
+        <div id="win-lose" class="" >
+            
+        </div>
+        <div class="animated zoomIn box">
+            <div class="box-velha">
+                <div class="box-ox">
+                    <div class="linha">
+                        <a href="#"><div class="ox-e" id="1" onclick="jogar(this.id);"></div></a>
+                        <a href="#"><div class="ox-e" id="2" onclick="jogar(this.id);"></div></a>
+                        <a href="#"><div class="ox-e" id="3" onclick="jogar(this.id);"></div></a>
+                    </div>
+                    
+                    <div class="linha2">
+                        <a href="#"><div class="ox-e" id="4" onclick="jogar(this.id);"></div></a>
+                        <a href="#"><div class="ox-e" id="5" onclick="jogar(this.id);"></div></a>
+                        <a href="#"><div class="ox-e" id="6" onclick="jogar(this.id);"></div></a>
+                    </div>
+                    
+                    <div class="linha3">
+                        <a href="#"><div class="ox-e" id="7" onclick="jogar(this.id);"></div></a>
+                        <a href="#"><div class="ox-e" id="8" onclick="jogar(this.id);"></div></a>
+                        <a href="#"><div class="ox-e" id="9" onclick="jogar(this.id);"></div></a>
+                    </div>
+                    
+                </div>
+            
+            </div>
+            <div class="box2">
+                <div id="winlose" class="box-placar">
+                    <h1 onclick="hideR();" class="tx4" id="wl"></h1>
+                    <hr style="visibility: hidden; height: 10px;">
+                    <h1 class="tx3" id="pX">0</h1>
+
+                    <hr style="visibility: hidden; height: 10px;">
+                    <h1 class="tx3" id="pO">0</h1>
+                </div>
+            </div>
+        
+        
+        </div>
+    </body>
+</html>

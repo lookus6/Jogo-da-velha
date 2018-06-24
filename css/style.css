@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg_video{
+  position: fixed; 
+  right: 0;     
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto; 
+  z-index: -1000;
+  background-color: #607997;
+  background-size: cover; 
+}
+
+.logo{
+    background: url(../img/logo.png);
+    width: 417px;
+    height: 281px;
+    margin: 0 auto;
+}
+
+.logo:hover{
+    opacity: 0.8;
+}
+
+.box{
+    width: 800px;
+    height: 374px;
+    margin:0px auto;
+	margin-top:-10px;
+}
+
+.box2{
+    float: right;
+    width: 200px;
+    height: 374px;
+    margin-top: -290px;
+    margin-right: 50px;
+}
+
+.box-velha{
+    background: url(../img/box-velha.png);
+    width: 474px;
+    height: 374px;
+    margin-left: 63px;
+}
+
+.box-placar{
+    background: url(../img/box-placar.png);
+    width: 200px;
+    height: 209px;
+}
+
+h3.ex1{
+    color: white;
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 25px;
+}
+.box-menu{
+    background: url(../img/button.png);
+    width: 200px;
+    height: 70px;
+    margin-bottom: 0px;
+}
+
+.box-menu:hover{
+    opacity: 0.85;
+}
+
+.box-ox{
+   width: 474px;
+   height: 374px;   
+   position: absolute;
+}
+
+.linha{
+
+    height: 113px;
+    width: 455px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.linha2{
+
+    height: 113px;
+    width: 455px;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: absolute
+}
+
+.linha3{
+
+    height: 113px;
+    width: 455px;
+    margin-top: 131px;
+    margin-left: 5px;
+    position: absolute
+}
+
+.ox-e{
+    width:120px;
+    height: 100px;
+    margin-left: 30px;
+    float:left;
+}
+
+.x{
+   background: url("../img/x.png");
+   background-repeat: no-repeat;
+   width: 115px;
+   height: 100px; 
+   margin-top: 2px;
+   margin-left: 35px;
+}
+
+.o{
+   background: url("../img/o.png");
+   background-repeat: no-repeat;
+   width: 115px;
+   height: 100px; 
+   margin-left: 35px;
+}
+
+.result{
+    width: 200px;
+    height: 209px;
+    background: rgba(0,0,0,0.85);
+    border-radius: 10px;
+    z-index: 1;
+    animation: 0.3s ease-out 0s 1 zoom;
+}
+
+h1.tx3{
+    text-align: center;
+    color: white;
+    font-size: 40pt; 
+    font-family: 'Raleway', sans-serif;
+}
+
+h1.tx4{
+    text-align: center;
+    color: white;
+    font-size: 10pt; 
+    font-family: 'Raleway', sans-serif;
+}
